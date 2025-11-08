@@ -3,7 +3,7 @@
 ## Basic Workflow
 
 ```yaml
-- uses: yourusername/securegate@v1
+- uses: Mahesh-Langote/securegate@v1
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -109,13 +109,13 @@ git push origin v1 --force
 jobs:
   scan-app1:
     steps:
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           working-directory: ./app1
           
   scan-app2:
     steps:
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           working-directory: ./app2
 ```

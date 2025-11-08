@@ -186,8 +186,8 @@ Welcome to SecureGate! Choose your path:
 
 ## 📞 Get Help
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/securegate/issues)
-- 💡 **Feature Requests**: [GitHub Issues](https://github.com/yourusername/securegate/issues/new)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Mahesh-Langote/securegate/issues)
+- 💡 **Feature Requests**: [GitHub Issues](https://github.com/Mahesh-Langote/securegate/issues/new)
 - 📖 **Documentation Issues**: [Contributing](CONTRIBUTING.md)
 - ❓ **Questions**: Check [FAQ](CLIENT_SETUP.md#faq) first
 

@@ -3,7 +3,7 @@
 A GitHub Action that scans Flutter/Dart dependencies for security vulnerabilities and license compliance issues.
 
 [![GitHub](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/yourusername/securegate)](https://github.com/yourusername/securegate/releases)
+[![GitHub release](https://img.shields.io/github/v/release/Mahesh-Langote/securegate)](https://github.com/Mahesh-Langote/securegate/releases)
 
 > **📘 Want to use this in your project?** See the [Client Setup Guide](CLIENT_SETUP.md) for step-by-step instructions!
 
@@ -37,7 +37,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -45,7 +45,7 @@ jobs:
 ### With Custom Configuration
 
 ```yaml
-- uses: yourusername/securegate@v1
+- uses: Mahesh-Langote/securegate@v1
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
     config-path: .github/security-gate.yml
@@ -116,7 +116,7 @@ ignore_vulnerabilities:
 ```yaml
 - name: Run Security Scan
   id: security
-  uses: yourusername/securegate@v1
+  uses: Mahesh-Langote/securegate@v1
   with:
     github-token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -155,7 +155,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -185,7 +185,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 ```
@@ -210,7 +210,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           working-directory: ./apps/app1
@@ -220,7 +220,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: yourusername/securegate@v1
+      - uses: Mahesh-Langote/securegate@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           working-directory: ./apps/app2
@@ -309,9 +309,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- 📝 [Report Issues](https://github.com/yourusername/securegate/issues)
-- 💡 [Feature Requests](https://github.com/yourusername/securegate/issues/new)
-- 📖 [Documentation](https://github.com/yourusername/securegate)
+- 📝 [Report Issues](https://github.com/Mahesh-Langote/securegate/issues)
+- 💡 [Feature Requests](https://github.com/Mahesh-Langote/securegate/issues/new)
+- 📖 [Documentation](https://github.com/Mahesh-Langote/securegate)
 
 ## Documentation
 
